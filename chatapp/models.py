@@ -1,18 +1,26 @@
 from django.db import models
-from django.utils.six import python_2_unicode_compatible
 
-
-@python_2_unicode_compatible
 class Room(models.Model):
-    """
-    A room for people to chat in.
-    """
-
-    # Room title
     title = models.CharField(max_length=255)
-
-    # If only "staff" users are allowed (is_staff on django's User)
     staff_only = models.BooleanField(default=False)
 
-    def str(self):
+    def __str__(self):
         return self.title
+
+    @property
+    def group_name(self):
+         return "room-%s" % self.id
+
+from django.contrib.auth.models import User
+from django.db.models.signals import post_save
+from django.dispatch import receiver
+
+class Profile(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    email_confirmed = models.BooleanField(default=False)
+
+@receiver(post_save, sender=User)
+def update_user_profile(sender, instance, created, **kwargs):
+    if created:
+        Profile.objects.create(user=instance)
+    instance.profile.save()

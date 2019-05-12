@@ -1,12 +1,18 @@
-from django.conf.urls import url
+from django.urls import path, re_path
 from django.contrib import admin
 from django.contrib.auth.views import login, logout
 from chatapp.views import index
-
+from chatapp import views as core_views
 
 urlpatterns = [
-    url(r'^$', index, name='homepage'),  # The start point for index view
-    url(r'^accounts/login/$', login, name='login'),  # The base django login view
-    url(r'^accounts/logout/$', logout, name='logout'),  # The base django logout view
-    url(r'^admin/', admin.site.urls),  # etc :D
+    path('', index),
+    path('login/', login, {'template_name': 'login.html'},name='login'),
+    path('logout/', logout, {'next_page': 'login'}, name='logout'),
+    path('admin/', admin.site.urls),
+
+    path('account_activation_sent/', core_views.account_activation_sent, name='account_activation_sent'),
+    path('signup/', core_views.signup, name='signup'),
+    re_path(r'^activate/(?P<uidb64>[0-9A-Za-z_\-]+)/(?P<token>[0-9A-Za-z]{1,13}-[0-9A-Za-z]{1,20})/$', core_views.activate,
+            name='activate'),
 ]
+
