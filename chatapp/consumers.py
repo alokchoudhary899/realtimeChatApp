@@ -1,7 +1,5 @@
 from django.conf import settings
-
 from channels.generic.websocket import AsyncJsonWebsocketConsumer
-
 from .exceptions import ClientError
 from .utils import get_room_or_error
 
