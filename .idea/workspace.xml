@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5657eafb-e65f-46ed-a0bc-a900ab53cb00" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="5657eafb-e65f-46ed-a0bc-a900ab53cb00" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,8 +148,8 @@
       <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="450">
+              <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -187,6 +184,7 @@
       <find>chat</find>
       <find>root</find>
       <find>os.environ.setdefault('DJANGO_SETTINGS_MODULE',</find>
+      <find>gunicorn project_name.wsgi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -251,11 +249,6 @@
             <path>
               <item name="realtimeChatApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="realtimeChatApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="realtimeChatApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="realtimeChatApp" type="462c0819:PsiDirectoryNode" />
-              <item name="chatapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="realtimeChatApp" type="b2602c69:ProjectViewProjectNode" />
@@ -665,8 +658,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="450">
+          <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
         </state>
       </provider>
     </entry>
