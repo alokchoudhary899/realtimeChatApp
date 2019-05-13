@@ -67,6 +67,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'realtimeChat.urls'
+STATIC_ROOT  = os.path.join(BASE_DIR, 'staticfiles')
 
 TEMPLATES = [
     {

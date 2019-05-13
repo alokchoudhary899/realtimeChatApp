@@ -103,16 +103,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/realtimeChat/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="118" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="220">
+              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="251">
@@ -158,6 +158,7 @@
       <find>/chat</find>
       <find>webs</find>
       <find>chat</find>
+      <find>root</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,7 +181,6 @@
         <option value="$PROJECT_DIR$/chatapp/utils.py" />
         <option value="$PROJECT_DIR$/chatapp/views.py" />
         <option value="$PROJECT_DIR$/realtimeChat/asgi.py" />
-        <option value="$PROJECT_DIR$/realtimeChat/settings.py" />
         <option value="$PROJECT_DIR$/realtimeChat/urls.py" />
         <option value="$PROJECT_DIR$/realtimeChat/wsgi.py" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
@@ -193,6 +193,7 @@
         <option value="$PROJECT_DIR$/Procfile.ts" />
         <option value="$PROJECT_DIR$/chatapp/settings.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/realtimeChat/settings.py" />
       </list>
     </option>
   </component>
@@ -620,6 +621,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chatapp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -629,15 +637,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/realtimeChat/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="220">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
         </state>
       </provider>
     </entry>
