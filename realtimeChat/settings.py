@@ -107,7 +107,7 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': 'kl123blr',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '5432',
     }
 }
 AUTH_PASSWORD_VALIDATORS = []
