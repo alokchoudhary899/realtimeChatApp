@@ -1,1 +1,2 @@
-web: gunicorn realtimechat-webapp.wsgi:application --log-file -
+web: gunicorn realtimeChat.wsgi
+web: gunicorn realtimehat-webapp:app
