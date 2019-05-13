@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5657eafb-e65f-46ed-a0bc-a900ab53cb00" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/realtimeChat/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/realtimeChat/wsgi.py" afterDir="false" />
-    </list>
+    <list default="true" id="5657eafb-e65f-46ed-a0bc-a900ab53cb00" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -329,7 +327,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
