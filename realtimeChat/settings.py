@@ -1,4 +1,5 @@
 import os
+import django_heroku
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 redis_host = os.environ.get('REDIS_HOST', 'localhost')
@@ -67,7 +68,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'realtimeChat.urls'
-STATIC_ROOT  = os.path.join(BASE_DIR, 'staticfiles')
 
 TEMPLATES = [
     {
@@ -127,7 +127,10 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+django_heroku.settings(locals())

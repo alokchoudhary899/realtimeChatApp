@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5657eafb-e65f-46ed-a0bc-a900ab53cb00" name="Default" comment="" />
+    <list default="true" id="5657eafb-e65f-46ed-a0bc-a900ab53cb00" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtimeChat/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/realtimeChat/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,11 +104,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/realtimeChat/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="109">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,7 +139,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reconnecting-websocket.min.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reconnecting-websocket.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/reconnecting-websocket.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
@@ -184,6 +190,10 @@
       <find>os.environ.setdefault('DJANGO_SETTINGS_MODULE',</find>
       <find>gunicorn project_name.wsgi</find>
       <find>server.listen(</find>
+      <find>realtimeChat:app</find>
+      <find>PROJECT_ROOT</find>
+      <find>STATIC_URL</find>
+      <find>STATIC_ROOT</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -216,11 +226,11 @@
         <option value="$PROJECT_DIR$/Procfile.ts" />
         <option value="$PROJECT_DIR$/chatapp/settings.py" />
         <option value="$PROJECT_DIR$/chatapp/consumers.py" />
-        <option value="$PROJECT_DIR$/realtimeChat/settings.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/realtimeChat/wsgi.py" />
         <option value="$PROJECT_DIR$/static/js/reconnecting-websocket.min.js" />
         <option value="$PROJECT_DIR$/static/js/jquery-1.12.2.min.js" />
+        <option value="$PROJECT_DIR$/realtimeChat/settings.py" />
       </list>
     </option>
   </component>
@@ -331,6 +341,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -338,14 +349,14 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.329429" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329429" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.45387995" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2942899" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37774524" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19662163" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.2804054" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.35139093" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.30307466" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30161053" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -604,13 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/realtimeChat/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://28196a31-3ccd-4f1c-ace4-f71e5b3c4648/database/realtimeChat/schema/public/table/auth_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -653,6 +657,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/realtimeChat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
