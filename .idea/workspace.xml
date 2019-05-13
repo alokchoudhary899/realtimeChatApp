@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5657eafb-e65f-46ed-a0bc-a900ab53cb00" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile.windows" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery-1.12.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/reconnecting-websocket.min.js" beforeDir="false" />
-    </list>
+    <list default="true" id="5657eafb-e65f-46ed-a0bc-a900ab53cb00" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -256,6 +250,11 @@
             <path>
               <item name="realtimeChat" type="b2602c69:ProjectViewProjectNode" />
               <item name="realtimeChat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="realtimeChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="realtimeChat" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
