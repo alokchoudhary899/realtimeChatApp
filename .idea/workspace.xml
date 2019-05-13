@@ -133,16 +133,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reconnecting-websocket.min.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="reconnecting-websocket.min.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/js/reconnecting-websocket.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-1.12.2.min.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jquery-1.12.2.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/jquery-1.12.2.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
@@ -183,6 +183,7 @@
       <find>root</find>
       <find>os.environ.setdefault('DJANGO_SETTINGS_MODULE',</find>
       <find>gunicorn project_name.wsgi</find>
+      <find>server.listen(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -261,17 +262,6 @@
               <item name="realtimeChat" type="462c0819:PsiDirectoryNode" />
               <item name="realtimeChat" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="realtimeChat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="realtimeChat" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="realtimeChat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="realtimeChat" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -341,7 +331,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -353,6 +342,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19662163" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.2804054" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.35139093" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.30307466" />
@@ -365,7 +355,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.22693998" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.35139093" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,17 +642,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/reconnecting-websocket.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/jquery-1.12.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/reconnecting-websocket.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

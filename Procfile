@@ -1,2 +1,1 @@
-web: gunicorn realtimeChat.wsgi
-web: gunicorn realtimeChat:app
+web: python realtimechat-webapp.py
