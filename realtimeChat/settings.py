@@ -90,13 +90,23 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'realtimeChat.wsgi.application'
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'realtimeChat',
+#         'USER': 'root',
+#         'PASSWORD': 'kl123blr',
+#         'HOST': '127.0.0.1',
+#         'PORT': '',
+#     }
+# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'realtimeChat',
-        'USER': 'root',
+        'USER': 'postgres',
         'PASSWORD': 'kl123blr',
-        'HOST': '127.0.0.1',
+        'HOST': 'localhost',
         'PORT': '',
     }
 }

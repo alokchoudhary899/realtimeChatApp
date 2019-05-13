@@ -15,5 +15,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="realtimeChat@localhost [2]" uuid="28196a31-3ccd-4f1c-ace4-f71e5b3c4648">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/realtimeChat</jdbc-url>
+    </data-source>
   </component>
 </project>
