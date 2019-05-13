@@ -1,2 +1,2 @@
-
-web: gunicorn realtimechat-webapp:realtimechat-webapp
+web: gunicorn realtimeChat.wsgi
+web: gunicorn chatapp:app
